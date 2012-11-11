@@ -1,0 +1,20 @@
+Index: libopensync-plugin-akonadi-0.22/src/akonadisync.cpp
+===================================================================
+--- libopensync-plugin-akonadi-0.22.orig/src/akonadisync.cpp
++++ libopensync-plugin-akonadi-0.22/src/akonadisync.cpp
+@@ -511,7 +511,7 @@ bool AkonadiSync::modifyItem ( OSyncChan
+     }
+     
+     Akonadi::Item item = items.first();
+-    item.clearPayload();
++//    item.clearPayload();
+     setPayload( item, chg );
+     Akonadi::ItemModifyJob *job = new Akonadi::ItemModifyJob( item );
+     job->setIgnorePayload(false);
+@@ -539,4 +539,4 @@ extern  "C"
+     }
+ }
+ 
+-#include <akonadisync.moc>
+\ No newline at end of file
++#include <akonadisync.moc>
