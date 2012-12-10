@@ -44,3 +44,10 @@ from KDE4 Akonadi-based applications.
 
 
 
+
+
+%changelog
+* Wed Mar 07 2012 Andrey Bondrov <abondrov@mandriva.org> 0.22-1
++ Revision: 782790
+- imported package libopensync-plugin-akonadi
+
