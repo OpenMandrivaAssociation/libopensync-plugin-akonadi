@@ -1,6 +1,6 @@
 Name:		libopensync-plugin-akonadi
 Version:	0.22
-Release:	%mkrel 1
+Release:	2
 Summary:	KDE4 Akonadi PIM Synchronization Plug-In for OpenSync
 Group:		Graphical desktop/KDE
 License:	GPLv3
