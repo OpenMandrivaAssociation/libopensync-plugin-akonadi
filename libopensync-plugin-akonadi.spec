@@ -4,7 +4,7 @@ Release:	2
 Summary:	KDE4 Akonadi PIM Synchronization Plug-In for OpenSync
 Group:		Graphical desktop/KDE
 License:	GPLv3
-URL:		http://www.opensync.org/wiki/plugins/akonadi
+URL:		https://www.opensync.org/wiki/plugins/akonadi
 Source0:	%{name}-%{version}.tar.bz2
 Patch0:		libopensync-plugin-akonadi-kde4.4.patch
 BuildRequires:	pkgconfig(opensync-1.0)
